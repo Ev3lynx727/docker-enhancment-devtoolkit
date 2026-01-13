@@ -1,0 +1,51 @@
+# Binary files
+main
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Environment files with sensitive data
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+/bin/
+/dist/
+/tmp/
+*.o
+*.a
+
+# Logs
+/logs/*.log
+logs/
+*.log
+
+# Backup directories
+/backup/
+backup/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+*.iws
+
+# Go specific
+vendor/
